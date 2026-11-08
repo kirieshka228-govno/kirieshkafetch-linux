@@ -1,4 +1,6 @@
-# Kirieshkafetch (Linux)
+<h1 align="center">
+ kirieshkafetch (Linux)
+</h1>
 
 Пародия на fastfetch но без кастомизации
 
@@ -25,6 +27,16 @@
 5. Открой встроенный терминал (Terminal > New Terminal) и собери проект прописав ``dotnet publish -c Release -r linux-x64 -p:PublishSingleFile=true --self-contained true``
 6. Если сборка выполнена без ошибок то переходи в директорию ``bin/Release/net10.0/linux-x64/publish/``, делай kirieshkafetch исполняемым, и запускай его командой ``./kirieshkafetch``
 7. Готово! По желанию ты можешь перенести файл kirieshkafetch из папки publish в любое другое место
+
+**P.S: Если надо запускать из любого места то пропиши команду ``sudo cp kirieshkafetch /usr/local/bin/``**
+
+## Требования
+
+* **ОС:** Linux x86_64
+
+* **Процессор:** Любой
+
+* **.NET 10 SDK (для сборки)**
 
 ## Скриншоты
 
