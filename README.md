@@ -25,3 +25,8 @@
 5. Открой встроенный терминал (Terminal > New Terminal) и собери проект прописав ``dotnet publish -c Release -r linux-x64 -p:PublishSingleFile=true --self-contained true``
 6. Если сборка выполнена без ошибок то переходи в директорию ``bin/Release/net10.0/linux-x64/publish/``, делай kirieshkafetch исполняемым, и запускай его командой ``./kirieshkafetch``
 7. Готово! По желанию ты можешь перенести файл kirieshkafetch из папки publish в любое другое место
+
+## Скриншоты
+
+<img width="953" height="579" src="https://github.com/user-attachments/assets/651a7295-039d-4ffb-b524-f4c3f5bb3e3b" />
+
